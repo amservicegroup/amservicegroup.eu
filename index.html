@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AM Service Group — Expertos en aire acondicionado, refrigeración industrial y electricidad en Barcelona. Instalación, mantenimiento y reparación 24h.">
+  <meta name="keywords" content="aire acondicionado, electricidad, instalación, mantenimiento, reparación, VRV, VRF, Barcelona, climatización">
+  <meta name="author" content="AM Service Group">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="AM Service Group | Climatización · Refrigeración · Electricidad">
+  <meta property="og:description" content="Servicio técnico profesional en Barcelona. 15+ años de experiencia. Respuesta en 24h.">
+  <meta property="og:type" content="website">
+  <title>AM Service Group | Climatización · Refrigeración · Electricidad · Barcelona</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <div class="logo-mark">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 2L4 9v14l12 7 12-7V9L16 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M16 10v12M10 13l12 6M22 13L10 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">AM Service</span>
+            <span class="logo-suffix">GROUP</span>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-label="Menú" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link active">Inicio</a></li>
+          <li><a href="aire-acondicionado.html" class="nav-link">Climatización</a></li>
+          <li><a href="electricidad.html" class="nav-link">Electricidad</a></li>
+          <li><a href="contacto.html" class="nav-link nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1920&q=80"
+           alt="Técnico de climatización trabajando" loading="eager">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge animate-in">
+          <span class="pulse-dot"></span>
+          <span>Barcelona · Maresme · Disponible 24h</span>
+        </div>
+        <h1 class="hero-title animate-in delay-1">
+          <span class="line-cyan">Climatización</span>
+          <span class="line-white">Refrigeración</span>
+          <span class="line-warm">& Electricidad</span>
+        </h1>
+        <p class="hero-desc animate-in delay-2">
+          Instalación, mantenimiento y reparación con técnicos certificados.
+          Especialistas VRV/VRF, refrigeración industrial y energía solar.
+          Presupuesto gratis en menos de 24h.
+        </p>
+        <div class="hero-buttons animate-in delay-3">
+          <a href="contacto.html" class="btn btn-primary">
+            <span>Solicitar Presupuesto</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="aire-acondicionado.html" class="btn btn-ghost">Ver Servicios</a>
+        </div>
+        <div class="hero-trust animate-in delay-4">
+          <div class="trust-avatars">
+            <img src="https://i.pravatar.cc/64?img=12" alt="">
+            <img src="https://i.pravatar.cc/64?img=33" alt="">
+            <img src="https://i.pravatar.cc/64?img=47" alt="">
+            <img src="https://i.pravatar.cc/64?img=68" alt="">
+          </div>
+          <div class="trust-text">
+            <div class="trust-stars">★★★★★</div>
+            <span>+500 clientes satisfechos</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-stats animate-in delay-4">
+        <div class="hero-stat">
+          <div class="hero-stat-num">15<span>+</span></div>
+          <div class="hero-stat-label">Años de experiencia</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">24<span>h</span></div>
+          <div class="hero-stat-label">Urgencias</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">100<span>%</span></div>
+          <div class="hero-stat-label">Garantía</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">VRV/VRF</span></div>
+          <div class="hero-stat-label">Tecnicos Especialistas</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="services-overview">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="section-label">Nuestros Servicios</div>
+        <h2 class="section-title">Soluciones <span>integrales</span><br>para tu confort</h2>
+        <p class="section-subtitle">Cubrimos todas tus necesidades de climatización, refrigeración industrial y electricidad con la más alta calidad técnica.</p>
+      </div>
+
+      <div class="services-grid">
+        <a href="aire-acondicionado.html" class="service-card reveal">
+          <div class="service-image">
+            <img src="/images.jpge/climatizacion.jpeg" alt="Instalación aire acondicionado" loading="lazy">
+          </div>
+          <div class="service-body">
+            <div class="service-card-head">
+              <span class="service-num">01</span>
+              <span class="service-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </span>
+            </div>
+            <h3>Climatización<br>& Refrigeración</h3>
+            <p>Split, multisplit, VRV/VRF, conductos, cassette. Sistemas residenciales, comerciales e industriales.</p>
+            <span class="service-link">Ver más
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <a href="electricidad.html" class="service-card reveal">
+          <div class="service-image">
+            <img src="/images.jpge/chispas.jpg" alt="Instalaciones eléctricas" loading="lazy">
+          </div>
+          <div class="service-body">
+            <div class="service-card-head">
+              <span class="service-num">02</span>
+              <span class="service-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+            <h3>Instalaciones<br>Eléctricas</h3>
+            <p>Instalaciones, reparaciones, certificados, domótica y paneles solares OFF/ON-GRID.</p>
+            <span class="service-link">Ver más
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <a href="contacto.html" class="service-card service-card-cta reveal">
+          <div class="service-card-cta-content">
+            <span class="service-num">24h</span>
+            <h3>¿Urgencia?<br>Te ayudamos ya</h3>
+            <p>Servicio de guardia para averías críticas. Llamadas atendidas en menos de 5 minutos.</p>
+            <span class="btn btn-white">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.68 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Llamar ahora</span>
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-item reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Técnicos Certificados</h4>
+          <p>Equipo cualificado con certificaciones oficiales y años de experiencia en el sector.</p>
+        </div>
+        <div class="feature-item reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Respuesta 24h</h4>
+          <p>Servicio de urgencias disponible para emergencias fuera de horario laboral.</p>
+        </div>
+        <div class="feature-item reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Garantía Total</h4>
+          <p>Todos nuestros trabajos incluyen garantía y seguro de responsabilidad civil.</p>
+        </div>
+        <div class="feature-item reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 100 7h5a3.5 3.5 0 110 7H6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h4>Presupuesto Gratis</h4>
+          <p>Estudio personalizado sin compromiso. Precios competitivos y transparentes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="process">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="section-label">Cómo Trabajamos</div>
+        <h2 class="section-title">Tu proyecto en <span>4 pasos</span></h2>
+        <p class="section-subtitle">Un proceso claro, profesional y sin sorpresas.</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-step reveal">
+          <div class="process-num">01</div>
+          <h4>Consulta</h4>
+          <p>Nos cuentas tu necesidad por teléfono, email o formulario.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-num">02</div>
+          <h4>Estudio</h4>
+          <p>Visitamos la zona, analizamos y preparamos presupuesto cerrado.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-num">03</div>
+          <h4>Ejecución</h4>
+          <p>Equipo certificado realiza el trabajo con materiales de primera.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-num">04</div>
+          <h4>Garantía</h4>
+          <p>Entrega, factura y garantía por escrito de todo el trabajo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="section-label">Testimonios</div>
+        <h2 class="section-title">Lo que dicen <span>nuestros clientes</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Instalaron un sistema VRF en nuestro hotel en tiempo récord. Profesionales totales, limpieza impecable y precio ajustado."</p>
+          <div class="testimonial-author">
+            <img src="https://i.pravatar.cc/64?img=11" alt="">
+            <div>
+              <strong>Carlos Martínez</strong>
+              <span>Director Hotel Eixample</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Llamé por una urgencia un domingo a las 22h y en 40 minutos estaban en casa. Salvarón la cámara frigorífica del restaurante."</p>
+          <div class="testimonial-author">
+            <img src="https://i.pravatar.cc/64?img=20" alt="">
+            <div>
+              <strong>Marta Ferrer</strong>
+              <span>Restaurante El Born</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Reformaron toda la instalación eléctrica del piso y nos asesoraron con paneles solares. Cero problemas con la normativa."</p>
+          <div class="testimonial-author">
+            <img src="https://i.pravatar.cc/64?img=53" alt="">
+            <div>
+              <strong>Jordi Puig</strong>
+              <span>Propietario · Gràcia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARCAS -->
+  <section class="brands">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="section-label">Marcas con las que trabajamos</div>
+        <h2 class="section-title">Especialistas <span>certificados</span></h2>
+      </div>
+      <div class="brands-grid reveal">
+        <div class="brand-item">Daikin</div>
+        <div class="brand-item">Mitsubishi</div>
+        <div class="brand-item">LG</div>
+        <div class="brand-item">Toshiba</div>
+        <div class="brand-item">Fujitsu</div>
+        <div class="brand-item">Hitachi</div>
+        <div class="brand-item">Samsung</div>
+        <div class="brand-item">Panasonic</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2>¿Listo para empezar tu proyecto?</h2>
+        <p>Presupuesto gratuito y sin compromiso · Respuesta garantizada en menos de 24h</p>
+        <div class="cta-buttons">
+          <a href="contacto.html" class="btn btn-white">
+            <span>Solicitar Presupuesto</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+          <a href="tel:+34613434633" class="btn btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.68 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>+34 613 434 633</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <a href="index.html" class="logo">
+            <div class="logo-mark">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 2L4 9v14l12 7 12-7V9L16 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M16 10v12M10 13l12 6M22 13L10 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span class="logo-name">AM Service</span>
+              <span class="logo-suffix">GROUP</span>
+            </div>
+          </a>
+          <p>Expertos en climatización, refrigeración y electricidad. Tu confort es nuestra prioridad desde hace más de 15 años.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a href="#" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="aire-acondicionado.html">Aire Acondicionado</a></li>
+            <li><a href="aire-acondicionado.html">Refrigeración Industrial</a></li>
+            <li><a href="electricidad.html">Electricidad</a></li>
+            <li><a href="electricidad.html">Paneles Solares</a></li>
+            <li><a href="electricidad.html">Domótica</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contacto</h4>
+          <ul class="footer-contact">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.68 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> <a href="tel:+34603361645">+34 603 361 645</a></li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.68 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> <a href="tel:+34613434633">+34 613 434 633</a></li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> <a href="mailto:amservicegroup@proton.me">amservicegroup@proton.me</a></li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg> <span>Calle Mallorca 349, 08013 Barcelona</span></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Horario</h4>
+          <ul class="footer-schedule">
+            <li><span>Lun – Vie</span><strong>8:00 – 18:00</strong></li>
+            <li><span>Sábado</span><strong>9:00 – 14:00</strong></li>
+            <li><span>Domingo</span><strong>Cerrado</strong></li>
+          </ul>
+          <div class="urgency-card">
+            <div class="urgency-label">🚨 Urgencias 24h</div>
+            <a href="tel:+34613434633" class="urgency-phone">+34 613 434 633</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 AM Service Group. Todos los derechos reservados.</p>
+        <p>Barcelona · Maresme · Cataluña</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/34613434633" class="whatsapp-float" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
